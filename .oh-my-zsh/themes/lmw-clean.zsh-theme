@@ -1,8 +1,15 @@
+# content of ~/.oh-my-zsh/themes/lmw-clean.zsh-theme
 if [ $UID -eq 0 ]; then NCOLOR="red"; else NCOLOR="white"; fi
 
-PROMPT='%{$fg[$NCOLOR]%}%B%n%b%{$reset_color%}:%{$fg[blue]%}%B%c %b☘%{$reset_color%} $(git_prompt_info)%(!.#.$) '  
-#RPROMPT='[%*]'
-RPROMPT='[%D{%H:%M:%S}]'
+#PROMPT='%{$fg[$NCOLOR]%}%B%n%b%{$reset_color%}:%{$fg[blue]%}%B%c %b☘%{$reset_color%} $(git_prompt_info)%(!.#.$) '
+
+PROMPT=$'%{$fg[cyan]%}%B%n@%m%{$reset_color%}:%{$fg[blue]%}%B%~ %B%{$fg[green]%}☘%{$reset_color%} $(git_prompt_info)
+%{\e[0;33m%}(❛◡❛✿)%{$reset_color%}%{$fg_bold[green]%}ᐅ %{$reset_color%}'
+#%(!.#.») '
+#%(!.#.») %F{yellow}%B
+RPROMPT='[%D{%Y-%m-%d %H:%M:%S (%z)}]'
+#preexec() { printf "\e[0m"; }
+
 
 # git theming
 ZSH_THEME_GIT_PROMPT_PREFIX="%{$fg_bold[blue]%}(%{$fg_no_bold[yellow]%}%B"
