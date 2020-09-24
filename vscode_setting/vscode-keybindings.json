@@ -1,0 +1,15 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "cmd+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
+    {
+        "key": "cmd+i",
+        "command": "python.sortImports"
+    },
+    {
+        "key": "cmd+'",
+        "command": "workbench.action.closePanel"
+    }
+]

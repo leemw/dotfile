@@ -1,0 +1,57 @@
+{
+    "window.zoomLevel": 1,
+    "remote.port": 15778,
+    "remote.host": "0.tcp.ngrok.io",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.renderWhitespace": "all",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java"
+    },
+    "gitlens.advanced.messages": {
+        "suppressGitVersionWarning": true
+    },
+    "java.semanticHighlighting.enabled": true,
+    "files.eol": "\n",
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "go.autocompleteUnimportedPackages": true,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "python.languageServer": "Microsoft",
+    "editor.suggest.localityBonus": true,
+    "editor.suggest.statusBar.visible": true,
+    "editor.suggestSelection": "first",
+    "python.testing.pytestEnabled": true,
+    "workbench.colorCustomizations": {
+        "[Tokyo Night Light]": {
+            "editor.findMatchBackground": "#d59f91de", //Current SEARCH MATCH
+            "editor.findMatchHighlightBackground": "#4f9d75a8" , //Other SEARCH MATCHES
+            "editor.selectionBackground": "#82c8f4",
+            // "editor.selection":  "#f1eeb3a9",
+        },
+        "[Solarized Light]": {
+            "editor.findMatchBackground": "#d59f91de", //Current SEARCH MATCH
+            "editor.findMatchHighlightBackground": "#4f9d75a8" , //Other SEARCH MATCHES
+            "editor.selectionBackground": "#82c8f4",
+            // "editor.selection":  "#f1eeb3a9",
+        },
+        "[HBuilderX Soft Green Light]": {
+            "editor.findMatchBackground": "#ffd3c8de", //Current SEARCH MATCH
+            "editor.findMatchHighlightBackground": "#8cf4bea8" , //Other SEARCH MATCHES
+            "editor.selectionBackground": "#bbe4fe",
+            // "editor.selection":  "#f1eeb3a9",
+        },
+        "editor.findMatchBackground": "#8b1e03de", //Current SEARCH MATCH
+        "editor.findMatchHighlightBackground": "#27aa22a8" , //Other SEARCH MATCHES
+        "editor.selectionBackground": "#135564",
+        "editor.selection":  "#f1eeb3a9",
+    },
+    "workbench.colorTheme": "Monokai",
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "debug.inlineValues": true,
+    "java.saveActions.organizeImports": true,
+    "C_Cpp.updateChannel": "Insiders",
+    // "editor.fontFamily": "Fira Code"
+}
